@@ -1,26 +1,35 @@
 .App {
   text-align: center;
+  /*水平對齊*/
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.jifu-logo {
+  /*animation: App-logo-spin infinite 20s linear;
+  call動畫*/
+  height: 10vmin;
   pointer-events: none;
+  /*鼠標事件*/
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
+  /*vh=view height*/
   display: flex;
-  flex-direction: column;
+  /*宣告*/
+  flex-direction: row;
+  /*定義主軸)*/
   align-items: center;
+  /*交錯軸位置*/
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /*主軸對齊*/
+  font-size: calc(10px + 5vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +39,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+/*旋轉動畫效果*/
+
+html,
+body {
+  font-family: 'Roboto', 'Noto Serif TC', Arial, '微軟正黑體';
 }
