@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="jifu-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="index.html"
-          target="_self"
-          rel="noopener noreferrer"
-        >
-        <p>
-          京富開發建設有限公司
-        </p>
-        </a>
-      </header>
-    </div>
-  );
+import React from 'react'
+import './App.css'
+import Titleani from './component/title/title-ani.js'
+import Rounterjifu from './component/rounterjifu'
+import Footer from './component/footer/footer'
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      animation: true,
+    }
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ animation: false })
+    }, 1500)
+  }
+  render() {
+    return <>{this.state.animation ? <Titleani /> : <Rounterjifu />}</>
+  }
 }
-
-export default App;
+export default App

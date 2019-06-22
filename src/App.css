@@ -1,48 +1,25 @@
-.App {
-  text-align: center;
-  /*水平對齊*/
-}
-
-.jifu-logo {
-  /*animation: App-logo-spin infinite 20s linear;
-  call動畫*/
-  height: 10vmin;
-  pointer-events: none;
-  /*鼠標事件*/
-}
-
-.App-header {
-  background-color: #ffffff;
+html,
+body {
+  font-family: 'Roboto', '微軟正黑體', 'Arial', '微軟正黑體';
   min-height: 100vh;
-  /*vh=view height*/
-  display: flex;
-  /*宣告*/
-  flex-direction: row;
-  /*定義主軸)*/
-  align-items: center;
-  /*交錯軸位置*/
-  justify-content: center;
-  /*主軸對齊*/
-  font-size: calc(10px + 5vmin);
-  color: white;
+  background-color: rgb(243, 243, 243);
 }
-
-.App-link {
-  color: #000000;
+/* Link*/
+a {
+  color: #484848;
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #484848;
   text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/*旋轉動畫效果*/
-
-html,
-body {
-  font-family: 'Roboto', 'Noto Serif TC', Arial, '微軟正黑體';
+/*List*/
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
