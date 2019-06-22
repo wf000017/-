@@ -1,15 +1,15 @@
 import React from 'react'
 import './footer.css'
-import Footer2 from './footer2'
+import './footer2.css'
 
 class Footer extends React.Component {
   render() {
     return (
       <div className="footer1">
-        <Footer2 />
-        <p className="text">
+        <div className="footer2"></div>
+        <div className="text">
           Copyright © 京富開發建設有限公司 / 統一編號：54279369
-        </p>
+        </div>
       </div>
     )
   }

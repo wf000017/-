@@ -1,9 +1,6 @@
 import React from 'react'
-import './footer2.css'
 
 class Footer2 extends React.Component {
-  render() {
-    return <div className="footer2"></div>
-  }
+  render() {}
 }
 export default Footer2

@@ -2,7 +2,6 @@ import React from 'react'
 import './App.css'
 import Titleani from './component/title/title-ani.js'
 import Rounterjifu from './component/rounterjifu'
-import Footer from './component/footer/footer'
 class App extends React.Component {
   constructor() {
     super()

@@ -9,7 +9,7 @@
 .footer1 {
   min-width: 100vw;
   min-height: 48px;
-  position: relative;
+  position: absolute;
   bottom: 0;
   background-color: #ad2e24;
   /* #dc143c; */
