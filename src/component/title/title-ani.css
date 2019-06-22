@@ -5,8 +5,12 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  min-width: 50vw;
+  width: 100%;
   margin: 0 auto;
+  position: absolute;
+  background-color: #fff;
+  animation: animation02 1s 1.5s forwards ease-out;
+  z-index: 100;
 }
 .jifu-logo {
   height: 6vmin;
@@ -34,6 +38,11 @@
     opacity: 0;
   }
 }
-.anitxt {
-  margin-top: 16px;
+@keyframes animation02 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

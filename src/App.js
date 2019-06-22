@@ -6,16 +6,22 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      animation: true,
+      ani: true,
     }
   }
   componentDidMount() {
     setTimeout(() => {
-      this.setState({ animation: false })
-    }, 1500)
+      this.setState({ ani: false })
+    }, 2500)
   }
   render() {
-    return <>{this.state.animation ? <Titleani /> : <Rounterjifu />}</>
+    return (
+      <>
+        {this.state.ani ? <Titleani /> : ''}
+
+        <Rounterjifu />
+      </>
+    )
   }
 }
 export default App
