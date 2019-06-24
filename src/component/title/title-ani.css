@@ -38,11 +38,11 @@
     opacity: 0;
   }
 }
-@keyframes animation02 {
+/* @keyframes animation02 {
   0% {
     opacity: 1;
   }
   100% {
     opacity: 0;
   }
-}
+} */

@@ -4,6 +4,8 @@ import './home.css'
 class Home extends React.Component {
   render() {
     return (
+      <div className="home">
+
       <div className="container">
         <div className="news">新建案</div>
         <img
@@ -15,6 +17,8 @@ class Home extends React.Component {
           <li>位於新竹市</li>
           <li>即將推出，敬請期待</li>
         </ul>
+      </div>
+              
       </div>
     )
   }

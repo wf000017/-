@@ -7,11 +7,17 @@
   font-weight: bold;
 }
 .footer1 {
-  min-width: 100vw;
+  width: 100%;
   min-height: 48px;
   position: absolute;
-  bottom: 0;
   background-color: #ad2e24;
   /* #dc143c; */
   /* #2f4f4f */
+}
+.footer2 {
+  width: 100%;
+  min-height: 16px;
+  position: relative;
+  bottom: 0;
+  background-color: #f4d35e;
 }

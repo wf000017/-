@@ -12,16 +12,10 @@ class App extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ ani: false })
-    }, 2500)
+    }, 2000)
   }
   render() {
-    return (
-      <>
-        {this.state.ani ? <Titleani /> : ''}
-
-        <Rounterjifu />
-      </>
-    )
+    return <>{this.state.ani ? <Titleani /> : <Rounterjifu />}</>
   }
 }
 export default App

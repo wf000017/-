@@ -1,12 +1,8 @@
 .hometxt {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
-.hero {
-  /* min-height: 100vh; */
-}
-
 .news {
   font-size: 48px;
   font-weight: bold;
@@ -16,5 +12,8 @@
   display: flex;
   vertical-align: middle;
   max-width: 100%;
+  height: auto;
+}
+.home {
   height: auto;
 }

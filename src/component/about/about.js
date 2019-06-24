@@ -5,7 +5,13 @@ class About extends React.Component {
   render() {
     return (
       <div className="container">
-        <h3>7777777</h3>
+        <div className="about">
+        <img
+                  src={process.env.PUBLIC_URL + '/img/logo.svg'}
+                  className="jifu-logo2"
+                  alt="logo2"
+                />
+        </div>
       </div>
     )
   }
