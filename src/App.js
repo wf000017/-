@@ -18,4 +18,5 @@ class App extends React.Component {
     return <>{this.state.ani ? <Titleani /> : <Rounterjifu />}</>
   }
 }
+
 export default App

@@ -5,11 +5,12 @@ import Home from './home/home'
 import About from './about/about'
 import Example from './example/example'
 import Footer from './footer/footer'
+import './rounterjifu.css'
 
 class Routerjifu extends React.Component {
   render() {
     return (
-      <>
+      <div className="rounterjifu">
         <Router>
           <Navbarjifu />
           <Switch>
@@ -19,7 +20,7 @@ class Routerjifu extends React.Component {
           </Switch>
           <Footer />
         </Router>
-      </>
+      </div>
     )
   }
 }

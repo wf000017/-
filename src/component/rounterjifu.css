@@ -1,0 +1,13 @@
+
+.rounterjifu {
+    animation: animation03 1.5s 0s forwards ease-in;
+  }
+  
+  @keyframes animation03 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
