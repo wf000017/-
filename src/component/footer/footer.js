@@ -7,7 +7,7 @@ class Footer extends React.Component {
       <div className="footer1">
         <div className="footer2"></div>
         <div className="text">
-          Copyright © 京富開發建設有限公司 / 統一編號：54279369
+          Copyright © 京富開發建設有限公司 / 統一編號：54279369 / 電子信箱：jifu188188@gmail.com
         </div>
       </div>
     )
